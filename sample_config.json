@@ -1,0 +1,18 @@
+{
+  "benchmark": "matmul",
+  "paradigm": "openmp",
+  "size": 256,
+  "steps": 20,
+  "seed": 42,
+  "counts": [1, 2],
+  "repeats": 5,
+  "warmups": 1,
+  "iterations": 2,
+  "timeout": 30,
+  "memory_mb": 1024,
+  "profiler": "basic",
+  "min_improvement": 0.02,
+  "use_ai": false,
+  "allow_source_transfer": false,
+  "image": "hpc-optimizer-sandbox:1.0"
+}

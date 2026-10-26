@@ -1,0 +1,6 @@
+*
+!sandbox
+!sandbox/Dockerfile
+!sandbox/worker.py
+!hpc_optimizer
+!hpc_optimizer/*.py
